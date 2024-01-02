@@ -8,3 +8,5 @@ RUN curl -o /var/www/html/master.zip -L https://codeload.github.com/TauqeerAhmad
 RUN cd /var/www/html && unzip master.zip && mv 2048-master/* . && rm -rf 2048-master master.zip
 
 EXPOSE 80
+
+CMD ["/usr/sbin/nginx", "-c", "/etc/nginx/nginx.conf"]
