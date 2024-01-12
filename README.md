@@ -6,4 +6,4 @@ AWS Elastic Beanstalk is an AWS-managed service for web applications. Elastic Be
 
 Unlike EC2 which is Infrastructure as a service, Elastic Beanstalk is a Platform As A Service (PAAS) as it allows users to directly use a pre-configured server for their application. Of course, you can deploy applications without ever having to use elastic beanstalk but that would mean having to choose the appropriate service from the vast array of services offered by  AWS, manually provisioning these AWS resources, and stitching them up together to form a complete web application.
 
-Elastic Beanstalk abstracts the underlying configuration work and allows you as a user to focus on more pressing matters. 
+Elastic Beanstalk abstracts the underlying configuration work and allows you as a user to focus on more  matters. 
